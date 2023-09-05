@@ -9,7 +9,7 @@ avatar:                    # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: "ah"  # Change Blog header text
+header_text: "‌"  # Change Blog header text
 header_feature_image: assets/img/back.jpg
 header_feature_image_responsive: true
 footer_text: >
