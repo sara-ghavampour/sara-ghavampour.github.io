@@ -121,7 +121,7 @@ Other changes have been implemented in DreamerV2, but the two mentioned above ar
 The pdf of the report is also available:
 <object data="/assets/img/dreamers/main.pdf" type="application/pdf" width="1550px" height="1550px">
     <embed src="/assets/img/dreamers/main.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://arya-ebrahimi.github.io/assets/img/dreamers/main.pdf">Download PDF</a>.
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://sara-ghavampour.github.io/assets/img/dreamers/main.pdf">Download PDF</a>.
         </p>    
 	</embed>
 </object>
