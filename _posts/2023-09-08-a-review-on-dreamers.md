@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Review on Dreamers"
-thumbnail: "/assets/img/dreamers/thumb.png"
+thumbnail: "/assets/img/dreamers/thumb.jpg"
 author: sara
 tags: [rl, representation-learning, lambda-return, model-based-rl]
 categories: Reinforcement Learning
