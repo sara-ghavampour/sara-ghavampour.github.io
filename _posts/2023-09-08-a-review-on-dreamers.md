@@ -36,7 +36,7 @@ $$
 $$
 
 <p>
-  <img src="/assets/img/dreamers/1.png" alt="drawing" width="800"/>
+  <img src="/assets/img/dreamers/1.png" alt="drawing" width="1500"/>
   <em> Dynamic learning in DreamerV1. </em>
 </p>
 
@@ -58,7 +58,7 @@ $$
 After the dynamic learning phase, the subsequent step involves learning the actor and critic using the acquired world model. The aim is to employ the model to "dream" the outcomes of actions without additional interactions with the environment. The process of simulation commences with a real observation, from which the latent state is derived using the representation model. This simulation continues for a finite horizon, and at each step, the agent selects an action based on the actor and computes the next latent state using the world model.
 
 <p>
-  <img src="/assets/img/dreamers/2.png" alt="drawing" width="400"/>
+  <img src="/assets/img/dreamers/2.png" alt="drawing" width="800"/>
   <em> Behavior learning in DreamerV1. </em>
 </p>
 
@@ -68,7 +68,7 @@ The process of behavior learning is depicted in Figure 2. As can be observed, th
 DreamerV1 employs an actor-critic approach to learn behaviors. For that, it learns an action model and a value model within the latent space of the world model. The action model implements the policy and aims to predict actions that address the imagined environment, while the value model estimates the imagined return achieved from each state. The action and value models are trained cooperatively, following the typical policy iteration approach. The action model aims to maximize an estimate of the value, while the value model regresses towards the estimated value.
 
 <p>
-  <img src="/assets/img/dreamers/3.png" alt="drawing" width="400"/>
+  <img src="/assets/img/dreamers/3.png" alt="drawing" width="800"/>
   <em> Complete process of DreamerV1, image from [3]. </em>
 </p>
 
@@ -84,14 +84,14 @@ $$
 $$
 
 <p>
-  <img src="/assets/img/dreamers/algo.png" alt="drawing" width="800"/>
+  <img src="/assets/img/dreamers/algo.png" alt="drawing" width="1500"/>
 </p>
 
 ## DreamerV2
 DreamerV2 [[4]](#4) builds upon the same model utilized in DreamerV1. During the training process, an encoder transforms each image into a representation that becomes integrated into the recurrent state of the world model. These representations lack access to perfect information about the images and instead focus on extracting only the essential elements needed for making predictions, thereby enhancing the agent's resilience to unseen images. Subsequently, a decoder attempts to reconstruct the corresponding image, facilitating the acquisition of general representations. However, DreamerV2 applies new techniques to enhance the model's learning, which we will introduce in this section.
 
 <p>
-  <img src="/assets/img/dreamers/4.png" alt="drawing" width="800"/>
+  <img src="/assets/img/dreamers/4.png" alt="drawing" width="1500"/>
   <em> Image from  <a href="https://blog.research.google/2021/02/mastering-atari-with-discrete-world.html">official DreamerV2 blog</a>, Gaussian and Categorical latent dynamics. </em>
 </p>
 
@@ -104,7 +104,7 @@ DreamerV2 employs a loss function somewhat similar to DreamerV1. Nevertheless, i
 Other changes have been implemented in DreamerV2, but the two mentioned above are the most significant. Nevertheless, for a comprehensive overview of these alterations, please refer to the appendix of the paper [[4]](#4).
 
 <p>
-  <img src="/assets/img/dreamers/5.png" alt="drawing" width="800"/>
+  <img src="/assets/img/dreamers/5.png" alt="drawing" width="1500"/>
   <em> Image from [4], World model learning in DreamerV2. </em>
 </p>
 
@@ -119,7 +119,7 @@ Other changes have been implemented in DreamerV2, but the two mentioned above ar
 
 
 The pdf of the report is also available:
-<object data="/assets/img/dreamers/main.pdf" type="application/pdf" width="850px" height="850px">
+<object data="/assets/img/dreamers/main.pdf" type="application/pdf" width="1550px" height="1550px">
     <embed src="/assets/img/dreamers/main.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://arya-ebrahimi.github.io/assets/img/dreamers/main.pdf">Download PDF</a>.
         </p>    
