@@ -102,7 +102,6 @@ By employing an outer GNN, here, a pooling layer can be used, but  GNNs are also
 NGNN can be considered a two-level network of networks. The inner network learns each node's representation, while the outer network is responsible for the whole graph's representation. NGNN has changed the receptive field of each node from a subtree to a subgraph. Since the representations of each node are calculated multiple times in different subgraphs, each node can have more than one representation.
 
 
-
 #### The representation power of NGNN
 
 The representation power of NGNN surpasses message passing graph neural networks. While conventional graphs cannot be distinguished by message-passing GNNs, NGNN can effectively discriminate among these graphs. Therefore, the representation power of NGNN exceeds that of 1-WL and 2-WL tests. However, its performance compared to 3-WL tests is still not fully understood.
