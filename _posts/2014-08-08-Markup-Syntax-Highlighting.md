@@ -6,7 +6,7 @@ author: sara
 tags: [robotics]
 categories: Robotics
 ---
-
+This post is also available on my [colleague's blog](https://arya-ebrahimi.github.io/posts/parralax-eddie-platform/)
 ## Abstract
 In this article, we provide a comprehensive report on how to get started with the Parallax Eddie robot platform with ROS2, and we discuss the problems we encountered during our study.
 
