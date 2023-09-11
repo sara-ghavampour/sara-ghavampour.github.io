@@ -6,9 +6,8 @@ feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hello! I'm Sara, a student currently pursuing a Bachelor's degree in Computer Engineering at Ferdowsi University of Mashhad. I find great joy in diving into various facets of the fascinating field of AI, spanning from reinforcement learning and Graph Neural Networks to Robotics, all with a sprinkle of Computer Vision and NLP.
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+I have an insatiable hunger for learning, and my quest has led me to explore numerous topics. You could say I'm a professional computer science enthusiast. However, there are times when I feel a particular connection with RL (Reinforcement Learning).
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+Feel free to explore my blog and GitHub to check out some of my projects. I'd be delighted if you reach out to discuss potential collaborations.
