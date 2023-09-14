@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Graph Representation Learning and Learning in Graphs"
+title: "A Literature Review on Graph Representation Learning and Learning in Graphs"
 thumbnail: "/assets/img/graph/Graph-Representation-Learning.jpg"
 author: sara
 tags: [deep-geometric-learning,graph-neural-networks,deep-learning,representation-learning]
